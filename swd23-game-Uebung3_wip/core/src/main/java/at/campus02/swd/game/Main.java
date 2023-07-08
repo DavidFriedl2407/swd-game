@@ -34,7 +34,7 @@ public class Main extends ApplicationAdapter implements InputProcessor {
     private Enemy enemy2;
     private Table uiTable;
     private Label positionLabel;
-    private int l;
+    private int f;
 
     private Stage stage;
 

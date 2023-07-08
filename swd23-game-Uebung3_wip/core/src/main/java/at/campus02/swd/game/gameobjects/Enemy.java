@@ -22,6 +22,7 @@ public class Enemy implements GameObject {
     private float elapsedTime; // Gesamte vergangene Zeit
     private float changeMovementTime; // Zeitpunkt, an dem die Bewegung geändert wird
     private boolean isAlternateMovement; // Gibt an, ob die alternative Bewegung aktiv ist
+    private int LiveEnemy;
 
     public Enemy(String imagePath) {
         this.imagePath = imagePath;

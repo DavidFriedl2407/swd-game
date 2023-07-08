@@ -16,6 +16,7 @@ public class Player implements GameObject {
     private float x; // X-Koordinate des Spielers
     private float y; // Y-Koordinate des Spielers
     private float speed; // Geschwindigkeit des Spielers
+    private int livePlayer=10;
 
     private boolean movingUp;
     private boolean movingDown;
